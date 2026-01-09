@@ -16,14 +16,26 @@
     background-color: #30B868;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
     /* align-items: center; */
+}
+.btn-green:hover{
+    background: rgb(3, 67, 3);
+    transform: scale(1.05);
+
+    /* problem */
+}
+.btn:hover{
+    background: rgb(21, 145, 21);
+    transform: scale(1.05);
 }
 .button{
     padding: 12.5px 16px;
     color: #FFFFFF;
     border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgb(170, 166, 166);
     background: transparent;
+    cursor: pointer;
 
 }
 
@@ -169,4 +181,28 @@ nav .menu{
 }
 .challenge .challenge-body p{
     margin-top: 16px;
+}
+
+footer{
+    /* align-items: center; */
+    padding: 120px 120px 30px;
+    background-color: #001931;
+}
+.footer-hed{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    color: white;
+}
+footer .copy-section{
+    text-align: center;
+    color: white;
+}
+.social-site{
+    gap: 16px;
+}
+.footer-hed p{
+    margin-bottom: 16px;
+    font-size: 20px;
 }
