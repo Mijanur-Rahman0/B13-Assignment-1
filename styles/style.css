@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -17,13 +16,10 @@ body{
     color: white;
     border-radius: 4px;
     cursor: pointer;
-    /* align-items: center; */
 }
 .btn-green:hover{
     background: rgb(3, 67, 3);
     transform: scale(1.05);
-
-    /* problem */
 }
 .btn:hover{
     background: rgb(21, 145, 21);
@@ -44,10 +40,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-}
-.navigation img{
-    /* border: 16px 0; */
-    /* max-width: 139px; */
 }
 nav .menu{
     display: flex;
@@ -100,9 +92,6 @@ nav .menu{
     
 }
 .note-section-container{
-    /* max-width: 1360px; */
-    /* padding-top: 0px; */
-    /* margin: 0 auto; */
     margin-bottom: 120px;
 
      
@@ -110,7 +99,6 @@ nav .menu{
 .note-section-container .note-section-header{
  text-align: center;
     padding-top: 66px;
-    /* padding-bottom: 44px; */
     margin-bottom: 44px;
 
 }
@@ -123,17 +111,16 @@ nav .menu{
     border-radius: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color:rgba(249, 85, 85, 1);
     color: #FFFFFF;
+    margin: auto;
 }
 .note-section-container .note-box{
     display: flex;
     gap: 16px;
     border-radius: 8px;
     background-color: #FFFFFF;
-    /* border: 8px; */
-    /* padding: 24px; */
 }
 .note-box .note-card{
    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
@@ -178,7 +165,6 @@ nav .menu{
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
-    /* line-height: 58px; */
 }
 .solution-process .solution-description{
     margin-bottom: 44px;
@@ -205,7 +191,6 @@ nav .menu{
 }
 
 footer{
-    /* align-items: center; */
     padding: 120px 120px 30px;
     background-color: #001931;
 }
