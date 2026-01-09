@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
@@ -80,13 +80,23 @@ nav .menu{
     font-size: 72px;
     margin-bottom: 16px;
 }
-.banner-container p {
+.banner-container paragraph {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 32px;
 }
 .banner-container .early-access{
-    /* margin-bottom: 16px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 6px;
+    background: white;
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    color: #469165;
+    padding: 8px 12px;
+    margin: auto;
     
 }
 .note-section-container{
@@ -144,9 +154,25 @@ nav .menu{
     border-bottom: 120px;
 }
 
+.brain-sec-img{
+    flex: 1;
+}
+
+.brain-sec-img img {
+    width: 100%;
+  
+}
+
+.ideas {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
 
 .brain-section .problem-solution-process{
-    align-items: center;
+    margin: auto 0;
+        flex: 1.5;
 }
 .solution-process h1{
     font-size: 48px;
@@ -157,12 +183,7 @@ nav .menu{
 .solution-process .solution-description{
     margin-bottom: 44px;
 }
-.problem-solution-process .ideas{
-    list-style: none;
-}
-.ideas li{
-    /* border-bottom: 16px; */
-}
+
 
 .challenge{
     max-width: 1360px;
@@ -200,6 +221,7 @@ footer .copy-section{
     color: white;
 }
 .social-site{
+    display: flex;
     gap: 16px;
 }
 .footer-hed p{
